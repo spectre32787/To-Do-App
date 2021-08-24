@@ -1,0 +1,44 @@
+/* Parent Container Styling */
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+#mainContainer {
+
+}
+
+#header {
+
+}
+
+#notePad {
+
+}
+
+/* Child Container Styling */
+
+#inputNote {
+
+}
+
+#storedNote {
+
+}
+
+/* Child Element Styling */
+
+#resetButton {
+
+}
+
+#enterButton {
+
+}
+
+#enterNote {
+    
+}
+
+
