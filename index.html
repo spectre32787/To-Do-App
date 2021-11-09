@@ -8,30 +8,23 @@
     <title>To-Do App</title>
 </head>
 <body>
-    <div id="mainContainer">
-
-        <div id="header">
-            To-Do Application
-
-            <button id="resetButton" type="button">Reset Notes</button>
-        </div>
-
-        <div id="notePad">
-
-            <div id="inputNote">
-                <form>    
-                    <label for="enterNote">Enter Note Here</label>
-                    <input type="text" id="enterNote">
-
-                    <button id="enterButton">Enter</button>    
-                </form>
-            </div>
-
-            <div id="storedNote">
-                A Stored Note
-            </div>
-
-        </div>
+    <div id="app_Main">
+        <form id="app_Form">
+            <label for="toDoEntry" id="label">To-Do Task</label> 
+            <br>
+            <input type="text" id="toDoEntry" name="Input Task">
+                <input type="submit" value="Submit" id="submit">
+                <input type="submit" value="Clear" id="clear">
+        </form>
     </div>
+
+        <br>
+        <br>
+
+        <ul id="app_List">
+            This is where the to do items will stay as an array until cleared
+        </ul>
+
+        <script src="code.js"></script>
 </body>
 </html>

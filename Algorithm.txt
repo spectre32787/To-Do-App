@@ -1,0 +1,31 @@
+1: Build a basic form with an input field, submit button, and clear button, and place it in a Div.
+
+2: Build a second Div and seperate by line breaks until CSS is built
+
+3: Ensure all major elements have ID's.
+
+4: Create Variables for the text field, submit button, clear button, and the empty div
+
+5: Create an event listener for the onClick of the submit button. Create an event listener of onClick for the Clear button.
+
+6: Create a function that takes the data from the submittion via the event listener and stores it in a new variable.
+
+7: Create function that takes submitted data variable and displays it in the empty div as an array item.  Set array to 5
+
+8: Create function that erases the array via the event listener for the Clear button variable. 
+
+
+
+
+
+
+
+Variables:
+
+app_Main - (div for first section of app)
+app_List - (div for where to do list is displayed)
+
+label - label text for the input field
+toDoEntry - text field
+submit - submit button
+clear - clear button
