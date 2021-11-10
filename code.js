@@ -13,16 +13,14 @@ function addToDo(event) {
     event.preventDefault()
 
     const toDoItem = toDoEntry.value
-   
     const toDoLi = document.createElement("li")
-    
     toDoLi.setAttribute("class", "entry")
-    
     const toDoEntry = document.createTextNode(toDoItem)
-
     toDoLi.document.appendChild(toDoEntry)
-
     document.getElementById(toDoList).appendChild(toDoLi)
+}
+
+    //console.log()
     
     // 1. get the value of the user's input and save into variable (done)
     // 2. create an li element (done)
@@ -38,16 +36,9 @@ function addToDo(event) {
 
     // 4. append/attach delete button to the list item (li)
     // 5. append/attach this list item (li) to the unordered list (ul)
-}   
+
 // VARIABLES FOR REFERENCE
     // toDoItem = value of the input field
     // toDoEntry = text node with above value inserted
     // toDoLi = list item with text node and text value appended
     // 
-
-
-
-
-
-
-
