@@ -3,24 +3,24 @@ const submit = document.getElementById("submit")
 const clear = document.getElementById("clear")
 const todos = document.getElementById("toDoList")
 
-// submit a todo
-    // add an event listener (click) on the submit 
-    // call the addTodo function
-    submit.addEventListener("click", addToDo);     
-    
+submit.addEventListener("click", addToDo);
+  
 // addTodo function    
 function addToDo(event) {
-    event.preventDefault()
+    event.preventDefault();
 
-    const toDoItem = toDoEntry.value
-    const toDoLi = document.createElement("li")
-    toDoLi.setAttribute("class", "entry")
-    const toDoEntry = document.createTextNode(toDoItem)
-    toDoLi.document.appendChild(toDoEntry)
-    document.getElementById(toDoList).appendChild(toDoLi)
+    const toDoItem = toDoEntry.value;
+    const toDoLi = document.createElement("li");
+    toDoLi.setAttribute("class", "entry");
+    const toDoEntry = document.createTextNode(toDoItem);
+    toDoLi.document.appendChild(toDoEntry);
+    document.getElementById(toDoList).appendChild(toDoLi);
 }
-
-    //console.log()
+         
+  
+    // submit a todo
+    // add an event listener (click) on the submit 
+    // call the addTodo function
     
     // 1. get the value of the user's input and save into variable (done)
     // 2. create an li element (done)
