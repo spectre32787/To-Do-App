@@ -9,7 +9,7 @@ submit.addEventListener("click", addToDo);
 function addToDo(event) {
     event.preventDefault();
 
-    const toDoItem = toDoEntry.value;
+    const toDoItem = toDoEntry.value();
     const toDoLi = document.createElement("li");
     toDoLi.setAttribute("class", "entry");
     const toDoEntry = document.createTextNode(toDoItem);
