@@ -19,9 +19,9 @@ function addToDo(event) {
     const toDoLi = document.createElement("li")
     toDoLi
     
-    // 2. create an li element
-    // 2a. append toDoItem to li
-    // 2b. append li to ul with id/class to the li
+    // 2. create an li element (done)
+    // 2a. append li to ul with id/class to the li
+    // 2b. append toDoItem to li
     
 
     // 3. create a delete button
