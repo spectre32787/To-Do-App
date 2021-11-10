@@ -14,13 +14,14 @@ const todos = document.getElementById("toDoList")
 function addToDo(event) {
     event.preventDefault()
 
-    // 1. get the value of the user's input and save into variable
     const toDoItem = toDoEntry.value
     const toDoLi = document.createElement("li")
-    toDoLi
+    toDoLi.setAttribute("class", "entry")
+    toDoItem.Document.getElementsByClassName("entry").document.body.appendChild(toDoItem)
     
+    // 1. get the value of the user's input and save into variable
     // 2. create an li element (done)
-    // 2a. append li to ul with id/class to the li
+    // 2a. append li with class li
     // 2b. append toDoItem to li
     
 
